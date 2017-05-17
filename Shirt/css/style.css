@@ -1,0 +1,321 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html {
+  font-size: 10px; }
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1;
+  font-size: 10px; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none; }
+
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+body {
+  color: #5CA4D7;
+  font-family: Helvetica;
+  margin: 5em 10em; }
+
+h1 {
+  color: white;
+  font-size: 3rem;
+  margin: 1rem auto;
+  text-align: center; }
+
+h2 {
+  float: left;
+  font-size: 2em;
+  font-weight: 100;
+  margin: 0.5em 0; }
+
+.shirt-wrapper {
+  margin: 0 auto;
+  width: auto; }
+  .shirt-wrapper:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.box {
+  float: left;
+  margin: 1em 3em; }
+  .box:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .box p {
+    float: right;
+    font-size: 2em;
+    font-weight: bold;
+    margin: 0.5em 0; }
+
+.shirt-box {
+  border: 2px solid #5CA4D7;
+  float: none;
+  height: 28em;
+  width: 25em; }
+  .shirt-box:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.flip-box {
+  border-bottom: 2px solid #4991D0;
+  border-left: 2px solid #4991D0;
+  float: right;
+  clear: both;
+  height: 2.5em;
+  width: 2.5em; }
+  .flip-box:hover {
+    background-color: #5CA4D7;
+    cursor: pointer; }
+    .flip-box:hover .fa {
+      color: white; }
+
+.shirt-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20.5em 20em;
+  bottom: 1em;
+  clear: both;
+  float: left;
+  height: 76%;
+  position: relative;
+  width: 100%;
+  z-index: -1; }
+
+.shirt-blue {
+  background-image: url("../imgs/shirt_blue.jpg"); }
+
+.shirt-pink {
+  background-image: url("../imgs/shirt_pink.jpg"); }
+
+.shirt-yellow {
+  background-image: url("../imgs/shirt_yellow.jpg"); }
+
+.bottom-options {
+  border-right: 2px solid #5CA4D7;
+  border-top: 2px solid #5CA4D7;
+  float: left;
+  width: 4.84em;
+  /* Or 19.32% for responsive? */
+  /* height: 4em;  Or 14% for responsive? */ }
+  .bottom-options p {
+    font-size: 1.5em;
+    color: #5CA4D7;
+    font-family: Arial;
+    margin: 25% 30%; }
+  .bottom-options:last-child {
+    border-right: none; }
+  .bottom-options:hover {
+    background-color: #5CA4D7;
+    cursor: pointer; }
+    .bottom-options:hover .fa {
+      color: white;
+      /*Need a mix-in for font hovers*/ }
+    .bottom-options:hover .square .dropdown {
+      display: block; }
+    .bottom-options:hover .xl .dropdown {
+      display: inline-block; }
+      .bottom-options:hover .xl .dropdown p {
+        color: inherit; }
+    .bottom-options:hover p {
+      color: white; }
+
+.fa {
+  color: #4991D0;
+  margin: 20% 30%; }
+
+.fa-3x {
+  margin: 10% 25%; }
+
+.fa-repeat {
+  margin: 10% 15%; }
+
+.fa-square {
+  margin: 10% 25%; }
+
+#pink {
+  color: #CA699A; }
+
+#yellow {
+  color: #CF9E63; }
+
+.dropdown {
+  position: relative;
+  display: none;
+  bottom: 2.5rem; }
+  .dropdown:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+@keyframes drop-shirt {
+  from {
+    bottom: 3.5rem; }
+  to {
+    bottom: 2.5rem;
+    border-bottom: none; } }
+#shirt-animation {
+  animation-name: drop-shirt;
+  animation-duration: 0.25s;
+  position: relative; }
+
+@keyframes drop-square {
+  from {
+    bottom: 3.5rem; }
+  to {
+    bottom: 2.5rem;
+    border-bottom: none; } }
+#square-animation {
+  animation-name: drop-square;
+  animation-duration: 0.25s;
+  position: relative; }
+
+.dropdown-square {
+  position: relative;
+  display: inline-block;
+  bottom: 2.5rem; }
+  .dropdown-square:after {
+    content: "";
+    display: table;
+    clear: both; }
+
+.bottom-arrow {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #5CA4D7;
+  bottom: -0.8rem;
+  left: 2px;
+  clear: both;
+  display: block;
+  height: 0;
+  position: absolute;
+  width: 0;
+  z-index: 1; }
+  .bottom-arrow:after {
+    content: '';
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 8px solid #fff;
+    bottom: 0.2rem;
+    left: -8px;
+    clear: both;
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 1; }
+
+.shirt-arrow {
+  left: 13px;
+  bottom: -0.5rem; }
+  .shirt-arrow:after {
+    content: '';
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    border-top: 7px solid #fff;
+    bottom: 0.2rem;
+    left: -7px;
+    clear: both;
+    display: block;
+    height: 0;
+    position: absolute;
+    width: 0;
+    z-index: 1; }
+
+.dropdown-content-square {
+  display: block;
+  border: 2px solid #5CA4D7;
+  position: absolute;
+  bottom: -0.3rem;
+  right: -1rem;
+  background-color: #FFF;
+  width: 3.5rem;
+  height: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1; }
+  .dropdown-content-square .square-options {
+    height: 100%;
+    width: 100%; }
+    .dropdown-content-square .square-options .fa-boxes {
+      margin: 0 1px;
+      float: left; }
+    .dropdown-content-square .square-options .blue {
+      color: #5CA4D7; }
+    .dropdown-content-square .square-options .pink {
+      color: #CA699A; }
+    .dropdown-content-square .square-options .yellow {
+      color: #D7A367; }
+    .dropdown-content-square .square-options .green {
+      color: #78AE7E; }
+
+.dropdown-content {
+  display: block;
+  position: absolute;
+  border: 2px solid #5CA4D7;
+  bottom: 0rem;
+  left: -12px;
+  background-color: #FFF;
+  width: auto;
+  height: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  padding: 1em; }
+  .dropdown-content .shirt-sizes {
+    background-image: url("../imgs/shirt_icon.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 3.5em;
+    width: 4.84em; }
+  .dropdown-content p {
+    display: block;
+    font-size: 10px;
+    margin: 0 auto;
+    text-align: center;
+    float: none;
+    line-height: 3.5em; }
+  .dropdown-content .extra-large {
+    background-size: 70%; }
+  .dropdown-content .large {
+    background-size: 70%; }
+  .dropdown-content .medium {
+    background-size: 50%; }
+  .dropdown-content .small {
+    background-size: 50%; }
+
+/*50w x 40h
+
+225 X 205
+
+*/
+
+/*# sourceMappingURL=style.css.map */

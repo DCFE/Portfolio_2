@@ -1,0 +1,796 @@
+root {
+  font-size: 16px; }
+
+html {
+  height: 100%; }
+
+body {
+  margin: 1.5rem;
+  margin-bottom: 0;
+  min-height: 100%; }
+
+header {
+  width: 100%; }
+
+img {
+  padding: 1.25rem 1.25rem .5rem; }
+
+form {
+  margin-right: .5rem;
+  padding: 3rem 1rem 2rem; }
+
+a {
+  color: red;
+  line-height: 125%; }
+
+@media only screen and (min-width: 1024.1px) {
+  .search-form {
+    float: right;
+    margin-top: 2rem;
+    padding: 1rem 1rem; }
+
+  .search-form-tablet {
+    display: none; }
+
+  .search-box {
+    border-radius: 0.5rem;
+    box-shadow: #A8A8A8;
+    height: 3.25rem;
+    margin-right: .5rem;
+    width: 20rem; }
+
+  .submit-button {
+    background-color: red;
+    border-color: red;
+    border-radius: 0.5rem;
+    color: #fff;
+    font-family: georgia;
+    font-size: 1.25rem;
+    height: 3.25rem;
+    width: 10rem; }
+
+  nav {
+    border: 2px solid;
+    border-color: lightgrey;
+    border-radius: 0.5rem;
+    clear: both;
+    font-family: georgia;
+    padding: 1.2rem 0;
+    text-align: center; }
+    nav a {
+      color: red;
+      font-size: 1.25rem;
+      line-height: normal;
+      padding: 0 2.75rem;
+      position: relative;
+      text-decoration: none; }
+
+  .banner {
+    background-image: url(imgs/banner.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.5rem;
+    height: 17rem;
+    width: auto; }
+
+  .banner-tablet {
+    display: none; }
+
+  .logo-heading {
+    float: left;
+    margin: 0; }
+
+  h2 {
+    color: white;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 4.5rem;
+    font-weight: 800;
+    padding: 3rem 0 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 8px black; }
+
+  h3 {
+    color: white;
+    font-family: 'Open Sans', Helvetica, arial;
+    /*open sans (fonts.google.com)*/
+    font-size: 1.5rem;
+    font-weight: 400;
+    padding: 0;
+    position: relative;
+    text-align: center;
+    text-shadow: 2px 2px 8px black; }
+
+  h4 {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.95rem;
+    padding-left: 1.5rem;
+    text-align: left; }
+
+  li {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.245rem;
+    line-height: 200%;
+    padding-left: 0.5rem;
+    text-align: left; }
+
+  hr {
+    width: 75rem; }
+
+  .firstName, .lastName, .address, .userName, .email, .confirmEmail, .membership, .membership-one, .membership-two, .membership-three {
+    border-radius: 0.5rem; }
+
+  .reg-form {
+    background-color: #E9E9EA;
+    border-radius: 0.5rem;
+    height: 100%;
+    margin: 0 1rem;
+    width: 100%; }
+
+  .reg-form-head {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    padding: 1.5rem 0rem 0rem 1.5rem;
+    text-align: left;
+    text-shadow: none; }
+
+  .reg-div-one {
+    float: left;
+    height: 100%;
+    margin-right: 4rem;
+    width: 45%; }
+
+  .reg-form-one {
+    float: left;
+    line-height: 2;
+    height: 100%;
+    width: 100%; }
+
+  .reg-div-two {
+    float: left;
+    height: 100%;
+    width: 45%; }
+
+  .reg-form-two {
+    float: left;
+    line-height: 2;
+    height: 100%;
+    width: 100%; }
+
+  .reg-form-foot {
+    clear: both;
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    padding-left: 1.5rem;
+    text-align: left;
+    text-shadow: none; }
+
+  .firstName, .lastName, .address, .userName, .email, .confirmEmail {
+    height: 3.25rem;
+    width: 100%; }
+
+  .membership {
+    background-color: #C4C4C4;
+    float: none;
+    height: 35.5rem;
+    margin: 0.5rem;
+    padding: 0.75rem; }
+
+  .membership-one {
+    background-color: #FFF;
+    float: left;
+    margin: 0.45rem;
+    width: 31%; }
+
+  .mem-individual {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: none; }
+
+  .ul-individual {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: .75rem;
+    font-weight: 900;
+    text-align: center; }
+
+  .membership-two {
+    background-color: #FFF;
+    float: left;
+    height: 85%;
+    margin: 0.45rem;
+    width: 31%; }
+
+  .mem-family {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: none; }
+
+  .ul-family {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: .5rem;
+    font-weight: 900;
+    text-align: center; }
+
+  .membership-three {
+    background-color: #FFF;
+    float: left;
+    height: 99%;
+    margin: 0.45rem;
+    padding: 0;
+    width: 31%; }
+
+  .mem-patron {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: none; }
+
+  .ul-patron {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: .75rem;
+    font-weight: 900;
+    text-align: center; }
+
+  .mem-mod {
+    width: 100%; }
+
+  .mem-level {
+    float: left;
+    width: 50%; }
+
+  .mem-level-head {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: left;
+    text-shadow: none;
+    width: 100%; }
+
+  .mem-level-form {
+    align-content: left;
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0 0 0 1.5rem;
+    text-align: left;
+    text-shadow: none;
+    width: 100%; }
+
+  .mem-options {
+    float: left;
+    width: 50%; }
+
+  .mem-options-head {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: left;
+    text-shadow: none; }
+
+  .mem-options-form {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    text-shadow: none;
+    width: 100%; }
+
+  .reg-button-div {
+    background-color: #E9E9EA;
+    float: right;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+
+  .reg-button-form {
+    background-color: #E9E9EA;
+    height: 100%;
+    text-align: right;
+    width: auto; }
+
+  .reg-button {
+    background-color: red;
+    border-color: red;
+    border-radius: 0.5rem;
+    color: #fff;
+    align-content: right;
+    font-family: georgia;
+    font-size: 1.25rem;
+    height: 3.25rem;
+    margin: 0;
+    width: 15rem; }
+
+  .hr-three {
+    margin: 3rem 0rem 3rem 1rem; }
+
+  .bottom-nav-one {
+    float: left;
+    line-height: 2rem;
+    list-style-type: none;
+    margin-left: 1rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    width: 32%; }
+
+  .bottom-nav-tickets {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 1200;
+    text-align: left;
+    text-shadow: none;
+    width: auto; }
+
+  .bottom-nav-two {
+    float: left;
+    line-height: 2rem;
+    list-style-type: none;
+    padding-bottom: 2rem;
+    text-align: left;
+    width: 33%; }
+
+  .bottom-nav-membership {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 1200;
+    text-align: left;
+    text-shadow: none;
+    width: auto; }
+
+  .bottom-nav-three {
+    float: right;
+    line-height: 2rem;
+    list-style-type: none;
+    padding-bottom: 2rem;
+    text-align: left;
+    width: 33%; }
+
+  .bottom-nav-donations {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 1200;
+    text-align: left;
+    text-shadow: none;
+    width: auto; }
+
+  .footer {
+    background-color: #242424;
+    clear: both;
+    height: 17rem;
+    padding: 2rem 0 3rem 0;
+    margin: 0 -1.5rem; }
+
+  .bottom-p p {
+    color: #fff;
+    font-family: georgia;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+    text-align: center; }
+
+  .footer-list-links {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 2rem 2.75rem 0rem;
+    text-align: center;
+    line-height: 2rem; }
+    .footer-list-links a {
+      color: #52d3ff;
+      padding: 0 1rem; } }
+/*Contain everything in a section*/
+@media only screen and (max-width: 1024px) {
+  body {
+    margin: 0 2rem; }
+
+  header h1.logo-heading {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    width: 381px; }
+  header nav {
+    border: none;
+    display: inline-block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: center;
+    width: 100%; }
+    header nav a {
+      border: .1rem solid;
+      border-color: lightgrey;
+      border-radius: 0.125rem;
+      color: red;
+      display: block;
+      font-size: 1.25rem;
+      line-height: 3rem;
+      text-decoration: none; }
+  header .search-form {
+    display: none;
+    float: none; }
+  header .search-form-tablet {
+    float: none;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    padding: 8% 8% 4%;
+    width: auto; }
+  header .search-box {
+    border-radius: 0.5rem;
+    box-shadow: #A8A8A8;
+    height: 3.25rem;
+    margin-left: auto;
+    margin-right: .5rem;
+    width: 68%; }
+  header .submit-button {
+    background-color: red;
+    border-color: red;
+    border-radius: 0.5rem;
+    color: #fff;
+    float: right;
+    font-family: georgia;
+    font-size: 1.25rem;
+    height: 3.25rem;
+    width: 30%; }
+  header div.div-search-reg-tablet {
+    background-color: #E9E9EA;
+    float: none;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 3rem;
+    width: 100%; }
+  header h2 {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 3rem;
+    font-weight: 900;
+    padding-left: 5%;
+    margin: 0; }
+  header h3 {
+    color: grey;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.375rem;
+    font-weight: 400;
+    line-height: 3rem;
+    padding-left: 5%;
+    margin: 0; }
+  header hr {
+    border-color: #ccc;
+    margin-bottom: 3rem;
+    width: 90%; }
+  header .banner-tablet {
+    display: block; }
+
+  div.banner {
+    display: none; }
+
+  h4 {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.95rem;
+    padding-left: 1.5rem;
+    text-align: left; }
+
+  li {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.245rem;
+    line-height: 200%;
+    padding-left: 0.5rem;
+    text-align: left; }
+
+  .reg-form {
+    background-color: #E9E9EA;
+    border-radius: 0.5rem;
+    height: 100%;
+    margin: 0 1rem;
+    width: 100%; }
+
+  .reg-form-head {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    padding: 1.5rem 0rem 0rem 1.5rem;
+    text-align: left;
+    text-shadow: none; }
+
+  .reg-div-one {
+    float: left;
+    height: 100%;
+    margin-right: 8%;
+    width: 45%; }
+
+  .reg-form-one {
+    float: left;
+    line-height: 2;
+    height: 100%;
+    padding-left: 5%;
+    width: 98%; }
+
+  .reg-div-two {
+    float: left;
+    height: 100%;
+    width: 45%; }
+
+  .reg-form-two {
+    float: left;
+    line-height: 2;
+    height: 100%;
+    padding-left: 5%;
+    width: 98%; }
+
+  .reg-form-foot {
+    clear: both;
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    padding-left: 1.5rem;
+    padding-top: 3rem;
+    text-align: left;
+    text-shadow: none; }
+
+  .firstName, .lastName, .address, .userName, .email, .confirmEmail {
+    height: 3.25rem;
+    width: 95%; }
+
+  .membership {
+    height: 100%;
+    margin: 0.5rem;
+    padding: 0.75rem; }
+
+  .membership-one, .membership-two, .membership-three {
+    background-color: #FFF;
+    float: none;
+    margin-bottom: 2.5%;
+    padding: 1rem 0 3rem;
+    width: 100%; }
+
+  .mem-individual, .mem-family, .mem-patron {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    text-align: center;
+    text-shadow: none; }
+
+  .ul-individual, .ul-family, .ul-patron {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: .75rem;
+    font-weight: 900;
+    text-align: center; }
+
+  .mem-mod {
+    display: inline-block;
+    float: none;
+    height: 100%;
+    margin-bottom: 5%;
+    width: 100%; }
+
+  .mem-level, .mem-options {
+    float: left;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 2rem;
+    padding-left: 1.5rem;
+    width: 45%; }
+
+  .mem-level-head, .mem-options-head {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 900;
+    padding-left: .25rem;
+    text-align: left;
+    text-shadow: none;
+    width: 100%; }
+
+  .mem-level-form .mem-options-form {
+    align-content: left;
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.25rem;
+    font-weight: 900;
+    line-height: 2rem;
+    margin: 0;
+    padding: 0 0 0 1.5rem;
+    text-align: left;
+    text-shadow: none;
+    width: 100%; }
+
+  .hr-two {
+    margin-bottom: 5%;
+    width: 95%; }
+
+  .reg-button-div {
+    background-color: #E9E9EA;
+    float: right;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%; }
+
+  .reg-button-form {
+    background-color: #E9E9EA;
+    height: 100%;
+    padding: 0 1rem 1rem 0;
+    text-align: right;
+    width: auto; }
+
+  .reg-button {
+    background-color: red;
+    border-color: red;
+    border-radius: 0.5rem;
+    color: #fff;
+    align-content: right;
+    font-family: georgia;
+    font-size: 1.25rem;
+    height: 3.25rem;
+    margin: 0;
+    width: 15rem; }
+
+  .hr-three {
+    margin: 5% 0 5% 1.5%;
+    width: 100%; }
+
+  .bottom-nav-one, .bottom-nav-two {
+    float: left;
+    line-height: 2rem;
+    list-style-type: none;
+    margin-left: 1rem;
+    padding-bottom: 2rem;
+    text-align: left;
+    width: 32%; }
+
+  .bottom-nav-three {
+    float: right;
+    line-height: 2rem;
+    list-style-type: none;
+    padding-bottom: 2rem;
+    text-align: left;
+    width: 32%; }
+
+  .bottom-nav-tickets, .bottom-nav-membership, .bottom-nav-donations {
+    color: black;
+    font-family: 'Open Sans', Helvetica, arial;
+    font-size: 1.75rem;
+    font-weight: 1200;
+    text-align: left;
+    text-shadow: none;
+    width: auto; }
+
+  .footer {
+    clear: both; }
+
+  .footer {
+    background-color: #242424;
+    clear: both;
+    height: auto;
+    padding: 2rem 0 3rem 0;
+    margin: 0 -1.5rem; }
+
+  .bottom-p p {
+    color: #fff;
+    font-family: georgia;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    margin: 0;
+    text-align: center; }
+
+  .footer-list-links {
+    font-size: 1.25rem;
+    margin: 0;
+    padding: 2rem 2.75rem 0rem;
+    text-align: center;
+    line-height: 2rem; }
+    .footer-list-links a {
+      color: #52d3ff;
+      padding: 0 1rem; } }
+@media only screen and (max-width: 600px) {
+  body {
+    margin: 0 2rem; }
+
+  header h1.logo-heading {
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    width: 222px; }
+    header h1.logo-heading a {
+      width: 100%; }
+      header h1.logo-heading a img {
+        padding: 0;
+        width: 100%; }
+  header h2 {
+    padding: 0;
+    text-align: left; }
+  header h3 {
+    padding: 0;
+    text-align: left; }
+  header .search-form-tablet {
+    padding: 4% 4%; }
+  header .search-box {
+    border-radius: 0.5rem;
+    box-shadow: #A8A8A8;
+    height: 3.25rem;
+    float: none;
+    margin-left: auto;
+    margin-right: right;
+    width: 100%; }
+  header .submit-button {
+    background-color: red;
+    border-color: red;
+    border-radius: 0.5rem;
+    color: #fff;
+    float: none;
+    font-family: georgia;
+    font-size: 1.25rem;
+    height: 3.25rem;
+    margin-top: 5%;
+    width: 100%; }
+  header nav {
+    border: none;
+    display: inline-block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+    text-align: center;
+    width: 100%; }
+    header nav a {
+      border: .1rem solid;
+      border-color: lightgrey;
+      border-radius: 0.125rem;
+      color: red;
+      display: block;
+      font-size: 1.25rem;
+      line-height: 3rem;
+      text-decoration: none; }
+  header div.div-search-reg-tablet {
+    padding-bottom: 0; }
+  header div.banner-tablet {
+    display: none; }
+  header hr {
+    display: none; }
+  header hr.hr-mobile {
+    display: block;
+    margin: 10% 0;
+    padding: 0;
+    text-align: left;
+    width: 100%; } }
+
+/*# sourceMappingURL=style.css.map */
